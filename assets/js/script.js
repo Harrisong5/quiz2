@@ -53,6 +53,15 @@ const questions = [
             {text: 'Hazel', correct: false},
             {text: 'Alder', correct: true}
         ]
+    },
+    {
+        question: "/assets/images/hawthorn.jpg",
+        answers: [
+            {text: 'Hawthorn', correct: true},
+            {text: 'Holly', correct: false},
+            {text: 'Sumac', correct: false},
+            {text: 'Elder', correct: false}
+        ]
     }
 ]
 function showq(question) {
