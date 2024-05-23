@@ -1,0 +1,55 @@
+#answers {
+    justify-content: space-between;
+}
+*, *::before, *::after {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+#qbox {
+    padding: 0;
+}
+#question {
+    text-align: center;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.neutral {
+    background-color: lightskyblue;
+}
+
+
+.controls {
+}
+.btn:hover {
+    background-color: white;
+}
+button:disabled{
+    border: none;
+    background-color: blue;
+}
+.correct {
+    background-color: green;
+}
+.wrong {
+    background-color: red;
+}
+.correct-answer {
+    background-color: white;
+}
+.hide {
+    display: none;
+}
+#tally {
+    text-align: center;
+}
+img {
+    width: 100%;
+    max-height: max-content;
+}
+h1 {
+    text-align: center;
+}
